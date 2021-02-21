@@ -1,0 +1,23 @@
+.status{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    background-color: white;
+    padding-left: 12px;
+    width: 375px;
+}
+
+.status-number{
+    padding: 15px;
+    background-color: $primary-colour;
+    color: white;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+.status-text{
+    padding-left: 10px;
+}

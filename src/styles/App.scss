@@ -1,0 +1,48 @@
+//add import of sass file
+@import './index.scss';
+@import './variables.scss';
+@import './sidebar.scss';
+@import './status button.scss';
+@import './homepage.scss';
+@import './login.scss';
+@import './table.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+//default styles for layout of all pages
+//vishesh doshi - please don't alter
+.App {
+  display: flex;
+  background-color: #F8F9FC;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.screen{
+  width: calc(83% - 100px);
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.page-title{
+  padding:5px;
+}
+
+main{
+  display: flex;
+  width: 100%;
+}
+
+.content{
+  //display:flex;
+  //background-color:white; 
+}
+
+
+#patient-details-table thead, #patient-details-table tbody {
+  display: inline-block;
+}
+

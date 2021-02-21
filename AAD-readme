@@ -1,0 +1,22 @@
+
+................................................................
+folder structure explained
+/components: contains reusable widgets used in different pages
+/helpers: a set of reusable functions
+/pages: the app views
+/services: third-party services that we’re using (e.g. Firebase)
+/styles: all stlying files
+App.js: the root component
+
+................................................................
+versions and installs
+//npm verision 6.14.8
+//sass version 4.14.1
+//installed react-router
+//installed Firebase
+................................................................
+
+Please ensure you pull the latest changes down from the dev branch before creating a branch
+Please push all changes when done 
+create a pull request and get it reviewed with another member before merging
+

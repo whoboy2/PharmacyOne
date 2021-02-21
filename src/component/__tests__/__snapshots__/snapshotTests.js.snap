@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderSnapshots renderAllPrescriptionTable 1`] = `
+<div>
+  <h2>
+    All prescriptions
+  </h2>
+  <table
+    className="table"
+    id="prescription-table"
+  >
+    <tbody>
+      <tr>
+        <th>
+          Prescription No.
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          NHS ID
+        </th>
+        <th>
+          Medication
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`renderSnapshots renderBloodButton 1`] = `
+<div
+  className="status"
+>
+  <p
+    className="status-text"
+  >
+    Blood work schedule
+  </p>
+  <p
+    className="status-number"
+    id="bloodwork-button"
+  >
+    0
+  </p>
+</div>
+`;
+
+exports[`renderSnapshots renderBloodworkDetailsTable 1`] = `<bloodworkDetailsTable />`;
+
+exports[`renderSnapshots renderBloodworkScheduleTable 1`] = `<bloodworkScheduleTable />`;
+
+exports[`renderSnapshots renderCollectPrescription 1`] = `
+<CollectPrescription
+  classes={
+    Object {
+      "button": "CollectPrescription-button-1",
+    }
+  }
+/>
+`;
+
+exports[`renderSnapshots renderMedButton 1`] = `
+<div
+  className="status"
+>
+  <p
+    className="status-text"
+  >
+    Medication Pickup
+  </p>
+  <p
+    className="status-number"
+    id="medication-button"
+  >
+    0
+  </p>
+</div>
+`;
+
+exports[`renderSnapshots renderSidebar 1`] = `
+<div
+  className="sidebar"
+>
+  <div
+    className="title"
+  >
+    <img
+      alt="Pharmacy One logo"
+      className="logo"
+      src="p1logo.png"
+    />
+    <h1>
+      PharmacyOne
+    </h1>
+  </div>
+  <ul
+    className="sidebarList"
+  >
+    <li
+      className="row"
+      id=""
+      key="0"
+      onClick={[Function]}
+    >
+      <div
+        id="icon"
+      >
+        <Memo([object Object]) />
+      </div>
+      <div
+        id="title"
+      >
+        Home
+      </div>
+    </li>
+    <li
+      className="row"
+      id=""
+      key="1"
+      onClick={[Function]}
+    >
+      <div
+        id="icon"
+      >
+        <Memo([object Object]) />
+      </div>
+      <div
+        id="title"
+      >
+        Blood Work
+      </div>
+    </li>
+    <li
+      className="row"
+      id=""
+      key="2"
+      onClick={[Function]}
+    >
+      <div
+        id="icon"
+      >
+        <Memo([object Object]) />
+      </div>
+      <div
+        id="title"
+      >
+        Medication
+      </div>
+    </li>
+    <li
+      className="row"
+      id=""
+      key="3"
+      onClick={[Function]}
+    >
+      <div
+        id="icon"
+      >
+        <Memo([object Object]) />
+      </div>
+      <div
+        id="title"
+      >
+        Prescriptions
+      </div>
+    </li>
+    <li
+      className="row"
+      id=""
+      key="4"
+      onClick={[Function]}
+    >
+      <div
+        id="icon"
+      >
+        <Memo([object Object]) />
+      </div>
+      <div
+        id="title"
+      >
+        Patient
+      </div>
+    </li>
+    <li
+      className="row"
+      id="active"
+      key="5"
+      onClick={[Function]}
+    >
+      <div
+        id="icon"
+      >
+        <Memo([object Object]) />
+      </div>
+      <div
+        id="title"
+      >
+        Log Out
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`renderSnapshots rendersPatientTable 1`] = `
+<div>
+  <table
+    className="table"
+    id="patients-table"
+  >
+    <tbody>
+      <tr>
+        <th>
+          NHS ID
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          Email
+        </th>
+        <th>
+          Mobile
+        </th>
+        <th>
+          Bloodwork Valid?
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`renderSnapshots rendersPrescriptionTable 1`] = `
+<div>
+  <h2>
+    Prescriptions for pickup
+  </h2>
+  <table
+    className="table"
+    id="prescription-table"
+  >
+    <tbody>
+      <tr>
+        <th>
+          Prescription No.
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          NHS ID
+        </th>
+        <th>
+          Medication
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
