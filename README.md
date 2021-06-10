@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Node.js CI](https://github.com/whoboy2/PharmacyOne/actions/workflows/node.js.yml/badge.svg)](https://github.com/whoboy2/PharmacyOne/actions/workflows/node.js.yml)
 
 ## Available Scripts
 
